@@ -8,7 +8,7 @@ import uk.co.placona.helloWorld.HelloWorld;
 
 public class HelloWorldTest
 {
-	private Hello hello;
+	private HelloWorld hello;
 	
 	@After
 	public void teardown()
