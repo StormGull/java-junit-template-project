@@ -1,12 +1,12 @@
 package helloWorld;
 
 import static org.junit.Assert.*;
-
+import org.junit.After;
 import org.junit.Test;
 
 import uk.co.placona.helloWorld.HelloWorld;
 
-public class HelloWorldTest
+public class HelloTest
 {
 	private HelloWorld hello;
 	
@@ -19,19 +19,19 @@ public class HelloWorldTest
 	@Test
 	public void HelloNameTest()
 	{
-		hello = new Hello("World");
+		hello = new HelloWorld("World");
 		assertTrue("Hello name test failed", hello.toString().equals("Hello, World!"));
 	}
 	
 	@Test public void HelloBlankTest()
 	{
-		hello = new Hello("");
+		hello = new HelloWorld("");
 		assertTrue("Hello blank test failed", hello.toString().equals("Hello!"));
 	}
 	
 	@Test public void HelloNullTest()
 	{
-		hello = new Hello(null);
+		hello = new HelloWorld(null);
 		assertTrue("Hello null test failed", hello.toString().equals("Hello!"));
 	}
 }
