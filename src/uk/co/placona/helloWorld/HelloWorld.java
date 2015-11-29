@@ -28,7 +28,7 @@ public class HelloWorld
 	@Override
 	public String toString()
 	{
-		if (name == null/* || name.length() == 0*/)
+		if (name == null || name.length() == 0)
 			return "Hello!";
 		else
 			return "Hello, " + name + "!";
