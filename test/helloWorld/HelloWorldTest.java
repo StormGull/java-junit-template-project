@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import uk.co.placona.helloWorld.HelloWorld;
 
-public class HelloTest
+public class HelloWorldTest
 {
 	private HelloWorld hello;
 	
